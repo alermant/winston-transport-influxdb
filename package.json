@@ -1,0 +1,24 @@
+{
+  "name": "winston-transport-influxdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alermant/winston-transport-influxdb.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alermant/winston-transport-influxdb/issues"
+  },
+  "homepage": "https://github.com/alermant/winston-transport-influxdb#readme",
+  "dependencies": {
+    "influx": "^5.0.7",
+    "util": "^0.11.0",
+    "winston-transport": "^4.2.0"
+  }
+}
