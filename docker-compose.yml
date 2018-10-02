@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  influxdb-grafana:
+    image: "philhawthorne/docker-influxdb-grafana:latest"
+    ports:
+      - "3003:3003" # grafana
+      - "3004:8888" # chronograf
+      - "8086:8086" # influxb
+      - "22022:22" #sshd
